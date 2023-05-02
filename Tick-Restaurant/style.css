@@ -1,0 +1,414 @@
+.heading{
+    background: #4CBB17;
+    width: 100%;
+    height: 20%;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    color:#FFD700;
+    position: fixed;
+    top: 0;
+}
+.headingEmpleados{
+    background: #1370bd;
+    width: 100%;
+    height: 20%;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    color:#FFD700;
+    position: fixed;
+    top: 0;
+}
+.headingAdmin{
+    background: #0c0c0c;
+    width: 100%;
+    height: 20%;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    color:#FFD700;
+    position: fixed;
+    top: 0;
+}
+.datosMesa{
+    position: absolute;
+    top:35px;
+    left:35px;
+    font-family: Helvetica, sans-serif;
+    color:white;
+}
+.llamarMesero{
+    border: 1px solid #081720;
+    background: none;
+    font-size: 15px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    top:40px;
+    left:1055px;
+    color:#eee;
+    background-color: #076786;
+}
+.verPedidos{
+    border: 1px solid #081720;
+    background: none;
+    font-size: 15px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    top:80px;
+    left:1055px;
+    color:#eee;
+    background-color: #076786;
+}
+.verPedidosAñadirPlatillo{
+    border: 1px solid #081720;
+    background: none;
+    font-size: 15px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    top:552px;
+    left:795px;
+    color:#eee;
+    background-color: #076786;
+}
+.verPedidosAñadirPlatillo:hover{
+    color:blue;
+    background-color:white;
+}
+.backMenu{
+    border: 1px solid #081720;
+    background: none;
+    font-size: 15px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    color:black;
+    background-color: rgb(102, 235, 102);
+}
+.llamarMesero:hover,.verPedidos:hover{
+    color:#FFD700;
+}
+.backMenu:hover{
+    color:white;
+}
+.content_sesion{
+    background:#eee;
+    padding: 150px;
+    font-family: Garamond, serif;
+    text-align: center;
+}
+.content_menu{
+    background:#eee;
+    width: 88%;
+    padding: 150px;
+    font-family: Garamond, serif;
+}
+.content_pedidos{
+    background:#eee;
+    padding: 150px;
+    font-family: Garamond, serif;
+    text-align: center;
+}
+.content_mesero{
+    background:#eee;
+    padding: 150px;
+    font-family: Garamond, serif;
+}
+.content_mesero_notificado{
+    background:#eee;
+    padding: 110px;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+.content_mesero_marcada_entregada{
+    background:#eee;
+    padding: 110px;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+.content_crear_usuario{
+    background:#eee;
+    padding: 150px;
+    font-family: Garamond, serif;
+    text-align: left;
+}
+.tabla_pedido{
+    margin-left:auto;
+    margin-right:auto;
+}
+.tabla_pedido th{
+    text-align: left;
+    padding: 4px 30px 4px 8px;
+    border: 1px solid black;
+}
+.tabla_pedido td{
+    padding: 4px 30px 4px 8px;
+    border: 1px solid black;
+}
+.tabla_ticket{
+    margin-left:auto;
+    margin-right:auto;
+}
+.tabla_ticket th{
+    text-align: left;
+    padding: 4px 30px 4px 8px;
+    border: 1px solid black;
+}
+.tabla_ticket td{
+    padding: 4px 30px 4px 8px;
+    border: 1px solid black;
+}
+.img_taco{
+    position: absolute;
+    top:205px;
+    left:155px;
+    width: 200px;
+    height: 121px;
+}
+.img_torta{
+    position: absolute;
+    top:355px;
+    left:155px;
+    width: 200px;
+    height: 121px;
+}
+.img_pizza{
+    position: absolute;
+    top:205px;
+    left:1000px;
+    width: 200px;
+    height: 121px;
+}
+.img_taco_bistec{
+    position: absolute;
+    top:355px;
+    left:1000px;
+    width: 200px;
+    height: 121px;
+}
+.boton_confirmar{
+    background-color: green;
+    font-size: 15px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    color:white;
+}
+.boton_cancelar{
+    background-color: #eee;
+    font-size: 15px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    color:red;
+}
+.boton_confirmar:hover{
+    background-color:#eee;
+    color:green;
+}
+.boton_cancelar:hover{
+    background-color:red;
+    color:white;
+}
+.memes{
+    width: 250px;
+    height: 187px;
+}
+.imagenes_menu{
+    width: 250px;
+    height: 187px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+.gallery{
+    margin: 3px;
+    border:1px solid #ccc;
+    float:left;
+    width: 390px;
+    height: 500px;
+}
+.gallery img{
+    width: 100%;
+    height:auto;
+}
+.descripcion_platillo{
+    padding: 15px;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    background:black;
+    text-align: center;
+    color:white;
+    position: fixed;
+    bottom: 0;
+}
+.footer_menu{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    background:black;
+    text-align: center;
+    color:white;
+    position: fixed;
+    bottom: 0;
+}
+.img_empleado{
+    margin-left: auto;
+    margin-right: auto;
+    width: 172px;
+    height: 247px;
+}
+.wholepage{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section .informacion_de_la_mesa{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+section .boton_detalles{
+    background-color: rgb(40, 40, 241);
+    font-size: 13px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    color:white;
+}
+section .boton_detalles:hover{
+    background-color: white;
+    color:rgb(40, 40, 241);
+}
+section .boton_orden_entregada{
+    background-color: rgb(116, 219, 12);
+    font-size: 13px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    color:white;
+}
+section .boton_orden_entregada:hover{
+    background-color: white;
+    color:rgb(116, 219, 12);
+}
+.boton_ticket_mesero{
+    background-color: rgb(116, 219, 12);
+    font-size: 13px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    color:white;
+}
+.boton_ticket_mesero:hover{
+    background-color: white;
+    color:rgb(116, 219, 12);
+}
+.boton_regresar{
+    background-color: rgb(40, 40, 241);
+    font-size: 13px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    color:white;
+}
+.boton_regresar:hover{
+    background-color: white;
+    color:rgb(40, 40, 241);
+}
+.boton_añadirMesa{
+    border: 1px solid #081720;
+    background: none;
+    font-size: 15px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    top:20px;
+    left:1050px;
+    color:#eee;
+    background-color: rgb(11, 104, 104);
+}
+.boton_añadirMesa:hover{
+    background-color: white;
+    color:red;
+}
+.boton_añadirEmpleado{
+    border: 1px solid #081720;
+    background: none;
+    font-size: 15px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    top:65px;
+    left:1050px;
+    color:#eee;
+    background-color: rgb(11, 104, 104);
+}
+.boton_añadirEmpleado:hover{
+    background-color: white;
+    color:red;
+}
+.boton_gestionMeseros{
+    border: 1px solid #081720;
+    background: none;
+    font-size: 15px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    top:20px;
+    left:850px;
+    color:#eee;
+    background-color: rgb(11, 104, 104);
+}
+.boton_gestionMeseros:hover{
+    background-color: white;
+    color:red;
+}
+.boton_gestionPlatillos{
+    border: 1px solid #081720;
+    background: none;
+    font-size: 15px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    top:65px;
+    left:850px;
+    color:#eee;
+    background-color: rgb(11, 104, 104);
+}
+.boton_gestionPlatillos:hover{
+    background-color: white;
+    color:red;
+}
+.boton_regresar_top{
+    border: 1px solid #081720;
+    background: none;
+    font-size: 15px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    top:45px;
+    left:1050px;
+    color:black;
+    background-color: #eee;
+}
+.boton_regresar_top:hover{
+    color:white;
+    background-color: black;
+}

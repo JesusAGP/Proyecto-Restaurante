@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.envoltura{
+    /*border: 1px solid black;*/
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.boton_navegar{
+    margin: 5% auto;
+    padding: 1%;
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+}
+.clearfix{
+    float: none;
+    clear:both;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.boton_navegar:hover{
+    background-color: white;
+    color: #1e90ff;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    color:#FFD700;
+    padding: 1%;
+    font-size: 26px;
+}
+.menu{
+    background-color: #2f3542;
+    border-bottom: 1px solid black;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 3%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #34ace0;
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: #227093;
+}
+.main-content{
+    padding: 1% 0;
+    background-color: #f1f2f6;
+}
+.main-content ul{
+    list-style-type: none;
+}
+.main-content ul li{
+    display: inline;
+    padding: 3%;
+}
+.empleado-data{
+    width: 80%;
+    background-color: white;
+    margin: 1%;
+    padding: 1%;
+    /*/float:center;*/
+}
+.footer{
+    background-color: #ff5252;
+    color: white;
+}
